@@ -33,10 +33,14 @@ The address consists of a 32-byte BLAKE3-256 hash used as the identifier of the 
 
 ### Event Body
 
-The event body consists of at least 5 bytes of useful information and N number of input data, which are currently presented exclusively in JSON format.
+The event body defines a data format that simplifies cryptographic authentication and reduces data reuse. Each body contains a version, which is always located in the first byte and serves as an identifier of the format in which the data was recorded.
+
+#### Event Body JSON
+
+The event body is defined by version `0` and consists of at least 5 bytes of useful information and N number of input data in JSON format.
 
 ```
-[0: version, 0, 0, 0, 0: event type: 0, ..., 0: data]
+[0: version, 1, 1, 1, 1: event type: 1, ..., 1: json data]
 ```
 
 ### Event Type
