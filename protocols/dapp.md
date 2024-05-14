@@ -1,12 +1,12 @@
 # dApp
 
-## Address
+## Auth
+
+### Address
 
 The address consists of a 32-byte BLAKE3-256 hash used as the identifier of the cryptographic public key, which is usually represented in HEX format with a `0x` prefix.
 
-## Auth Header
-
-### Auth Header Structure
+### Auth Header
 
 | Field | Type                     |
 | ----- | ------------------------ |
@@ -24,12 +24,12 @@ The address consists of a 32-byte BLAKE3-256 hash used as the identifier of the 
 
 ### Event Structure
 
-| Field    | Type                                        |
-| -------- | ------------------------------------------- |
-| `id`     | uuid                                        |
-| `author` | [Address](dapp.md#address)                  |
-| `body`   | [EventBody](dapp.md#event-body)             |
-| `auth`   | [AuthHeader](dapp.md#auth-header-structure) |
+| Field    | Type                              |
+| -------- | --------------------------------- |
+| `id`     | uuid                              |
+| `author` | [Address](dapp.md#address)        |
+| `body`   | [EventBody](dapp.md#event-body)   |
+| `auth`   | [AuthHeader](dapp.md#auth-header) |
 
 ### Event Body
 
@@ -103,10 +103,10 @@ The event type consists of 4 bytes, each of which is predefined by the protocol.
 
 **Body**
 
-| Name   | Type                                        |
-| ------ | ------------------------------------------- |
-| `body` | [EventBody](dapp.md#event-body)             |
-| `auth` | [AuthHeader](dapp.md#auth-header-structure) |
+| Name   | Type                              |
+| ------ | --------------------------------- |
+| `body` | [EventBody](dapp.md#event-body)   |
+| `auth` | [AuthHeader](dapp.md#auth-header) |
 
 **Response**
 
