@@ -6,6 +6,14 @@
 
 The address consists of a 32-byte BLAKE3-256 hash used as the identifier of the cryptographic public key, which is usually represented in HEX format with a `0x` prefix.
 
+### Address Generation
+
+To correctly generate the address, you need to pass the input arguments for the BLAKE3-256 hash in the correct order, where the [schema](dapp.md#schema) should go first and then the public key.
+
+```
+[0: schema, 0, ..., 0: public key]
+```
+
 ### Auth Header
 
 | Field | Type                     |
