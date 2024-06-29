@@ -6,4 +6,5 @@
 ## Protocols
 
 * [dApp](protocols/dapp.md)
+* [Registry](protocols/registry.md)
 * [Delivery](protocols/delivery.md)
