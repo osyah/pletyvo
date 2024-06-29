@@ -41,7 +41,7 @@ To correctly generate the address, you need to pass the input arguments for the 
 
 ### Event Body
 
-The event body defines a data format that simplifies cryptographic authentication and reduces data reuse. Each body contains a version, which is always located in the first byte and serves as an identifier of the format in which the data was recorded.
+The event body defines a data format that aims for easy cryptographic verification and a smaller input data size due to predefined positions. At the program layer, the body is represented by an array of bytes, the first element of which always contains a version that further defines the subsequent data positions.
 
 #### Event Body JSON
 
