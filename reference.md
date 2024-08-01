@@ -8,12 +8,12 @@ Some API gateway addresses can provide access to multiple networks simultaneousl
 
 Sorting by options is available only in endpoints that return any array of objects.
 
-| Option   | Type                  |
-| -------- | --------------------- |
-| `after`  | uuid                  |
-| `before` | uuid                  |
-| `limit`  | int (default: 20)     |
-| `order`  | asc \| desc (default) |
+| Option   | Type                        |
+| -------- | --------------------------- |
+| `after`  | uuid                        |
+| `before` | uuid                        |
+| `limit`  | uint (default: 25; max: 50) |
+| `order`  | asc \| desc (default)       |
 
 **Example**
 
