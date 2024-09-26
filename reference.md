@@ -22,7 +22,8 @@ Sorting by options is available only in endpoints that return any array of objec
 
 ## SDK
 
-| Name                                                                 | Language |
-| -------------------------------------------------------------------- | -------- |
-| [`osyah/go-pletyvo`](https://github.com/osyah/go-pletyvo) (official) | Go       |
+| Name                                                                 | Language   |
+| -------------------------------------------------------------------- | ---------- |
+| [`osyah/go-pletyvo`](https://github.com/osyah/go-pletyvo) (official) | Go         |
+| [`osyah/js-pletyvo`](https://github.com/osyah/js-pletyvo) (official) | JavaScript |
 
