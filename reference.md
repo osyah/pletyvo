@@ -26,4 +26,5 @@ Sorting by options is available only in endpoints that return any array of objec
 | -------------------------------------------------------------------- | ---------- |
 | [`osyah/go-pletyvo`](https://github.com/osyah/go-pletyvo) (official) | Go         |
 | [`osyah/js-pletyvo`](https://github.com/osyah/js-pletyvo) (official) | JavaScript |
+| [`osyah/py-pletyvo`](https://github.com/osyah/py-pletyvo) (official) | Python     |
 
