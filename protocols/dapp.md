@@ -1,3 +1,10 @@
+---
+description: >-
+  This protocol defines the conditions for the functioning of any decentralized
+  application and is the basis for building any new protocol on the Pletyvo
+  platform.
+---
+
 # dApp
 
 ## Auth
