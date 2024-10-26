@@ -1,10 +1,14 @@
 ---
 description: >-
-  The Pletyvo platform is a set of protocols and standards that allow others to
-  build their own applications and networks.
+  The Pletyvo platform is a set of components that allow others to build their
+  own applications and networks.
 ---
 
 # Introduction
+
+## Component
+
+Components are elements that are used to create decentralized applications, they can be either predefined by the platform or created by external developers to meet their own requirements.
 
 ## Network
 
